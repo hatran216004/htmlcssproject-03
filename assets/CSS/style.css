@@ -520,3 +520,50 @@ a {
 .member__control-icon-next {
     rotate: 180deg;
 }
+
+/* ================= App  =================*/
+.app {
+    margin-top: 200px;
+}
+
+.app-body {
+    padding: 0 70px;
+    display: flex;
+    align-items: center;
+    column-gap: 160px;
+    border-radius: 4px;
+    background: #2e80ce;
+}
+.app-mobile {
+    margin-top: -95px;
+    vertical-align: bottom;
+}
+
+.app-content {
+    max-width: 586px;
+    display: flex;
+    flex-direction: column;
+}
+
+.app__desc,
+.app__heading {
+    color: #fff;
+}
+
+.app__heading {
+    max-width: 489px;
+}
+
+.app__desc {
+    width: 100%;
+}
+
+.app-dowload {
+    margin-top: 38px;
+    display: inline-flex;
+    column-gap: 28px;
+}
+
+.app-dowload__item:hover {
+    opacity: 0.9;
+}
